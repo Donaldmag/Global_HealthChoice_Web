@@ -3,7 +3,7 @@
       <AppHeader/>
         <slot/>
       <!-- <CommonScrollTop @click="scrollToTop()"/> -->
-      <!-- <AppFooter class="-mt-20 absolute w-full"/> -->
+      <AppFooter class="-mt-20 absolute w-full"/>
     </div>
 </template>
 
