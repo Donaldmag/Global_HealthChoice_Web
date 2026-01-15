@@ -22,7 +22,7 @@
                 type="email"
               >
               <button type="submit" class="btn">
-                {{ newsletter[0].buttonText }}
+                {{ newsletter[0].buttonText }} <i class="fa fa-paper-plane fa-x" aria-hidden="true"></i>
               </button>
             </form>
           </div>

@@ -2,39 +2,39 @@
 export const slides = [
   {
     id: 1,
-    image: "/img/slider2.jpg",
+    image: "/img/slider-1.jpg",
     title: "Global Health Choice Services",
     subtitle: "Global <span>Health</span> Choice Services",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.",
-    buttons: [{ text: "Contact Us", url: "/contact", variant: "primary" }],
+      "We provide personalized support for individuals with developmental disabilities, encouraging growth and dignity within the comfort of their own communities.",
+    buttons: [{ text: "Find Our More", url: "/about", variant: "primary" }],
   },
   {
     id: 2,
-    image: "/img/slider.jpg",
-    title: "We Provide Medical Services That You Can Trust!",
-    subtitle:
-      "We Provide <span>Medical</span> Services That You Can <span>Trust!</span>",
+    image:
+      "/img/slider-2.jpg",
+    title: "Empowering Independence with In-Home Support",
+    subtitle: "Empowering Independence with In-Home Support",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.",
+      "Our compassionate team delivers exceptional, individualized care to ensure every patient feels supported, empowered, and valued throughout their journey.",
     buttons: [
-      { text: "Get Appointment", url: "/appointment", variant: "default" },
-      { text: "About Us", url: "/about", variant: "primary" },
+      { text: "Get Appointment", url: "/appointment", variant: "primary" },
+      // { text: "About Us", url: "/about", variant: "primary" },
     ],
   },
-  {
-    id: 3,
-    image: "/img/slider3.jpg",
-    title: "We Provide Medical Services That You Can Trust!",
-    subtitle:
-      "We Provide <span>Medical</span> Services That You Can <span>Trust!</span>",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.",
-    buttons: [
-      { text: "Get Appointment", url: "/appointment", variant: "default" },
-      { text: "Contact Now", url: "/contact", variant: "primary" },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   image: "/img/slider3.jpg",
+  //   title: "We Provide Medical Services That You Can Trust!",
+  //   subtitle:
+  //     "We Provide <span>Medical</span> Services That You Can <span>Trust!</span>",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam.",
+  //   buttons: [
+  //     { text: "Get Appointment", url: "/appointment", variant: "default" },
+  //     { text: "Contact Now", url: "/contact", variant: "primary" },
+  //   ],
+  // },
 ];
 
 // Données de la section About
@@ -42,98 +42,8 @@ export const aboutData = [
     { title: "We Offer Different Services To Patient",
       subtitle: "About Global Health Choice",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo.",
-      detailedDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
+      detailedDescription: ", when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
 ]
-
-export const servicesData = [{
-  title: "Our Services",
-  subtitle:
-    "Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts",
-  sectionImage: "/img/section-img.png",
-
-  services: [
-    {
-      id: 1,
-      title: "Personal Care",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      image:
-        "https://img.freepik.com/premium-photo/help-support-medical-with-nurse-old-man-retirement-rehabilitation-healing-empathy-physical-therapy-healthcare-with-patient-black-woman-nursing-home-caregiver-service_590464-124294.jpg",
-      alt: "Personal Care service",
-      link: "/services/skilled-nursing",
-      date: null, // "22 Aug, 2020" si vous voulez ajouter des dates
-      icon: "fa fa-user-nurse",
-      category: "Medical Care",
-    },
-    {
-      id: 2,
-      title: "PHYSICAL THERAPY",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      image:
-        "https://img.freepik.com/premium-photo/male-health-worker-with-clipboard-discussing-with-caucasian-senior-woman-medication-dose_13339-332911.jpg",
-      alt: "Physical therapy service",
-      link: "/services/physical-therapy",
-      date: null, // "15 Jul, 2020"
-      icon: "fa fa-hand-holding-medical",
-      category: "Rehabilitation",
-    },
-    {
-      id: 3,
-      title: "OCCUPATIONAL THERAPY",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      image:
-        "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
-      alt: "Occupational therapy service",
-      link: "/services/occupational-therapy",
-      date: null, // "05 Jan, 2020"
-      icon: "fa fa-hands-helping",
-      category: "Rehabilitation",
-    },
-    {
-      id: 4,
-      title: "SPEECH THERAPY",
-      description:
-        "Professional speech therapy services for rehabilitation and communication improvement.",
-      image: "/img/services/speech-therapy.jpg",
-      alt: "Speech therapy service",
-      link: "/services/speech-therapy",
-      icon: "fa fa-comment-medical",
-      category: "Rehabilitation",
-    },
-    {
-      id: 5,
-      title: "HOME HEALTH AIDE",
-      description:
-        "Comprehensive home health aide services for daily living assistance.",
-      image: "/img/services/home-health-aide.jpg",
-      alt: "Home health aide service",
-      link: "/services/home-health-aide",
-      icon: "fa fa-home-heart",
-      category: "Home Care",
-    },
-    {
-      id: 6,
-      title: "MEDICAL SOCIAL WORK",
-      description:
-        "Support services for patients and families dealing with medical challenges.",
-      image: "/img/services/social-work.jpg",
-      alt: "Medical social work service",
-      link: "/services/medical-social-work",
-      icon: "fa fa-people-arrows",
-      category: "Support Services",
-    },
-  ],
-
-  // Configuration
-  config: {
-    itemsPerRow: 3,
-    showCategories: false,
-    showDates: false,
-    showViewAllButton: true,
-  },
-}]
 
 export const menuItems = [
   {
@@ -223,10 +133,9 @@ export const services = [
   {
     id: 1,
     title: "Personal Care",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    description: "Dignified assistance with daily living activities",
     image:
-      "https://img.freepik.com/premium-photo/help-support-medical-with-nurse-old-man-retirement-rehabilitation-healing-empathy-physical-therapy-healthcare-with-patient-black-woman-nursing-home-caregiver-service_590464-124294.jpg",
+      "https://img.freepik.com/premium-photo/home-nurse-old-man-with-water-tablets-medication-with-help-healthcare-illness-african-people-patient-caregiver-with-professional-wellness-medical-with-recovery-lounge_590464-468369.jpg",
     alt: "Personal Care service",
     link: "/services/personal-care",
     date: null,
@@ -236,9 +145,9 @@ export const services = [
     id: 2,
     title: "In Home Support (DD/IDD)",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Personalized assistance for individuals with disabilities to foster independence...",
     image:
-      "https://img.freepik.com/premium-photo/male-health-worker-with-clipboard-discussing-with-caucasian-senior-woman-medication-dose_13339-332911.jpg",
+      "https://img.freepik.com/premium-photo/social-worker-caring-about-man-with-disability_249974-14196.jpg",
     alt: "In Home Support (DD/IDD) service",
     link: "/services/in-home-support",
     date: null,
@@ -248,9 +157,9 @@ export const services = [
     id: 3,
     title: "ABA (Autism)",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Evidence-based behavioral therapy focused on improving social, communication...",
     image:
-      "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
+      "https://img.freepik.com/premium-photo/excited-african-american-kid-child-psychotherapist-playing-with-bricks_116547-17364.jpg",
     alt: "ABA (Autism) service",
     link: "/services/autism",
     date: null,
@@ -260,9 +169,9 @@ export const services = [
     id: 4,
     title: "Respite Care",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Temporary professional support that provides primary family caregivers with a vital break...",
     image:
-      "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
+      "https://img.freepik.com/premium-photo/female-doctor-consoling-senior-woman-bedroom-home_13339-369430.jpg",
     alt: "Respite Care service",
     link: "/services/respite-care",
     date: null,
@@ -271,10 +180,9 @@ export const services = [
   {
     id: 5,
     title: "Skilled nursing (pediatric & adults)",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    description: "Expert clinical medical care and monitoring provided...",
     image:
-      "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
+      "https://img.freepik.com/premium-photo/black-woman-nurse-caregiver-blood-pressure-elderly-care-healthcare-sofa-home-african-female-person-medical-professional-helping-monitoring-old-age-patient-living-room_590464-210329.jpg",
     alt: "Skilled nursing (pediatric & adults) service",
     link: "/services/skilled-nursing",
     date: null,
@@ -284,9 +192,9 @@ export const services = [
     id: 6,
     title: "Physical Therapy",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Specialized exercises and treatments designed to improve mobility...",
     image:
-      "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
+      "https://img.freepik.com/premium-photo/physiotherapy-help-stretching-band-doctor-with-senior-man-physical-therapy-rehabilitation-healthcare-support-black-woman-chiropractor-physiotherapist-consulting-elderly-patient_590464-124328.jpg",
     alt: "Physical Therapy service",
     link: "/services/physical-therapy",
     date: null,
@@ -295,10 +203,9 @@ export const services = [
   {
     id: 7,
     title: "Occupational Therapy",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    description: "Therapeutic support to help patients master the daily...",
     image:
-      "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
+      "https://img.freepik.com/premium-photo/giving-crutches-curly-young-dark-haired-nurse-giving-crutches-aged-woman-wearing-glasses-after-leg-surgery_259150-46763.jpg",
     alt: "Occupational Therapy service",
     link: "/services/occupational-therapy",
     date: null,
@@ -308,9 +215,9 @@ export const services = [
     id: 8,
     title: "Speech Therapy",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Comprehensive care to improve communication clarity, language...",
     image:
-      "https://img.freepik.com/premium-photo/senior-man-volunteer-nurse-support-caregiver-help-with-elderly-medical-nursing-home-smile-happy-trust-community-employee-working-healthcare-charity-house-interior-living-room_590464-85939.jpg",
+      "https://img.freepik.com/premium-photo/smiling-black-female-caregiver-teaching-elderly-woman-use-digital-tablet-home_236854-67276.jpg",
     alt: "Speech Therapy service",
     link: "/services/speech-therapy",
     date: null,
@@ -329,17 +236,19 @@ export const quickLinks = [
 
 export const socialLinks = [
   { platform: "facebook", url: "#", icon: "icofont-facebook" },
-  { platform: "google-plus", url: "#", icon: "icofont-google-plus" },
+  // { platform: "google-plus", url: "#", icon: "icofont-google-plus" },
   { platform: "twitter", url: "#", icon: "icofont-twitter" },
-  { platform: "vimeo", url: "#", icon: "icofont-vimeo" },
-  { platform: "pinterest", url: "#", icon: "icofont-pinterest" },
+  { platform: "linkedin", url: "#", icon: "icofont-linkedin" },
+  { platform: "instagram", url: "#", icon: "icofont-instagram" },
+  // { platform: "vimeo", url: "#", icon: "icofont-vimeo" },
+  // { platform: "pinterest", url: "#", icon: "icofont-pinterest" },
 ];
 
 export const newsletter = [
     {
       title: "Sign up for newsletter",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "Suscribe to our newsletter and get up to date",
       placeholder: "Your email address",
       buttonText: "Subscribe",
       formAction: "https://mediplus-html.vercel.app/mail/mail.php",
@@ -398,5 +307,24 @@ export const scheduleCards = [
       //   hours: "9.00-15.00",
       // },
     ],
+  },
+];
+
+export const jobOffer = [
+  {
+    id: 1,
+    image: "",
+    title: "",
+    subtitle: "Join Global Health Choice",
+    description: "Are you interested in being part of our team?",
+    buttons: [{ text: "Apply now", url: "/application", variant: "default" }],
+  },
+  {
+    id: 2,
+    image: "/img/slider3.jpg",
+    title: "",
+    subtitle: "Share your experience with us",
+    description: "Do you have any suggestion?",
+    buttons: [{ text: "Share now", url: "/application", variant: "default" }],
   },
 ];

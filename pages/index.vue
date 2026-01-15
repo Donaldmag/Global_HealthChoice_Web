@@ -1,6 +1,7 @@
 <template>
     <div>
         <div>
+            <SectionSlider :slides="jobOffer"/>
               <CommonHeroSlider :slides="slides"/>
               <HomeAboutSection />
               <CommonScheduleCardsIndividual :cards="scheduleCards" />
@@ -19,8 +20,8 @@
 </template>
 
 <script setup>
-import { slides, services, scheduleCards } from 'assets/data/data';
-
+import { slides, services, scheduleCards, jobOffer } from 'assets/data/data';
+// import { CommonJobSlider } from "../components/common/JobSlider.vue"
 // const scheduleCardsData = scheduleData.scheduleCards;
 
 // Vous pouvez contrôler le slider depuis ici si nécessaire

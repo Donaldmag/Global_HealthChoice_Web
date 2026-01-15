@@ -38,8 +38,9 @@
               <h2>Opening Hours</h2>
               <div class="row">
                 <ul class="text-white">
-                  <li class="day">Mon - Fri: <span>8:30 - 17:00</span></li>
-                  <li class="day">Sat - Sun: <span>Closed</span></li>
+                  <li class="day">Mon - Fri: <span>9:00 - 18:00</span></li>
+                  <li class="day">Sat : <span>10:00 - 12:00</span></li>
+                  <li class="day">Sun: <span>Closed</span></li>
                 </ul>
               </div>
             </div>
@@ -52,6 +53,9 @@
                 <li class="day">Adresse: <span>Virginia, United States</span></li>
                 <li class="day">Contact: 
                   <NuxtLink to="tel:+2405051675" class="contact-link">+240 505 1675</NuxtLink>
+                </li>
+                <li class="day">Fax: 
+                  <NuxtLink to="" class="contact-link">1 571 298 4511</NuxtLink>
                 </li>
                 <li class="day">Email: 
                   <NuxtLink to="mailto:info@globalhealthchoice.com" class="contact-link">info@globalhealthchoice.com</NuxtLink>

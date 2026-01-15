@@ -10,16 +10,17 @@
             v-for="slide in slides"
             :key="slide.id"
             :slide="slide"
+            :variantSlide="true"
             @button-click="handleSlideButtonClick"
           />
         </div>
         
         <!-- Swiper Pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
         
         <!-- Swiper Navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-button-next"></div> -->
       </div>
     </div>
   </section>
@@ -107,46 +108,10 @@ defineExpose({
   position: relative;
 }
 
-/* Styles de navigation Swiper */
-.swiper-button-prev,
-.swiper-button-next {
-  color: white;
-  background: rgba(0, 0, 0, 0.3);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  font-size: 20px;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.swiper-pagination {
-  bottom: 20px !important;
-}
-
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background: white;
-  opacity: 0.5;
-}
-
-.swiper-pagination-bullet-active {
-  opacity: 1;
-  background: #83b259 !important;
-}
 
 /* Ajustements pour le contenu du slide */
 .single-slider {
-  min-height: 600px;
+  max-height: 80px !important;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -235,10 +200,6 @@ defineExpose({
   .btn {
     width: 100%;
     text-align: center;
-  }
-
-  .swiper-button-prev, .swiper-button-next, .swiper-pagination{
-    display: none;
   }
 }
 </style>

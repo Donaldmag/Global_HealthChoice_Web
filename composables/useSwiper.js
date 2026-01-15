@@ -1,5 +1,5 @@
 import { ref, onMounted, onUnmounted } from "vue";
-import { slides } from "/assets/data/data";
+// import { slides, jobOffer } from "/assets/data/data";
 
 export const useSwiper = () => {
   const swiperInstance = ref(null);
@@ -133,7 +133,7 @@ export const useSwiper = () => {
   });
 
   return {
-    slides,
+    // slides,
     swiperInstance,
     currentSlide,
     totalSlides,

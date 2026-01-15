@@ -23,9 +23,9 @@
         </h2>
         
         <!-- Beschreibung -->
-        <!-- <p class="text service-description">
+        <p class="text service-description">
           {{ service.description }}
-        </p> -->
+        </p>
         
         <!-- Weitere Informationen Button -->
         <div class="service-actions">

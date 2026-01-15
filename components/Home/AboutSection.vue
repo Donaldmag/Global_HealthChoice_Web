@@ -19,10 +19,10 @@
           <div class="choose-left">
             <h3>About Global Health Choice</h3>
             <p>
-              At Global Health Choice we focus on providing exceptional care to patients with intellectual and developmental disabilities. 
+              At Global Health Choice, we are deeply committed to providing exceptional care for individuals with intellectual and developmental disabilities. We believe that every patient deserves the opportunity to live as independently as possible, surrounded by the familiarity of their own home and community. Our professional team works tirelessly to offer personalized support that not only meets clinical needs but also fosters a true sense of belonging, dignity, and continuous personal growth. 
             </p>
             <p>
-              Our committed team helps each patients live as independently as possible by offering personalized support that encourages growth, dignity, and a true sense of belonging in their own homes and communities.
+              Your satisfaction and peace of mind are the pillars of our mission. By combining professional expertise with a compassionate heart, we deliver outstanding service that empowers our patients to enjoy a meaningful and fulfilling quality of life. Whether through skilled nursing or specialized therapies, Global Health Choice remains a dedicated partner in building a brighter, more autonomous future for those we serve.
             </p>
           </div>
           <!-- End Choose Left -->
@@ -90,6 +90,11 @@ const props = defineProps(['aboutData']);
   margin: 0;
 }
 
+.why-choose .choose-right{
+  min-height: 460px;
+  border-radius: 8px;
+}
+
 @media (max-width: 768px) {
   .image-placeholder {
     height: 300px;
@@ -99,9 +104,16 @@ const props = defineProps(['aboutData']);
   .placeholder-content i {
     font-size: 3rem;
   }
+  .why-choose .choose-left h3, .why-choose .choose-left p, .why-choose{
+    text-align: center;
+  }
 }
 
 .why-choose .choose-left h3{
   color: #0860b6;
 }
+
+.why-choose .choose-left h3:before{
+  display: none;
+  }
 </style>

@@ -7,9 +7,7 @@
             <div class="error-inner">
               <h1>404<span>Oop's sorry we can't find that page!</span></h1>
               <p>
-                Aenean eget sollicitudin lorem, et pretium felis. Nullam euismod
-                diam libero, sed dapibus leo laoreet ut. Suspendisse potenti.
-                Phasellus urna lacus
+              
               </p>
               <form class="search-form">
                 <input placeholder="Search from Here" type="text">
